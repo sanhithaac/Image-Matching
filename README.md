@@ -86,10 +86,10 @@ graph TD
 **Made for the Kaggle Image Matching Challenge 2024**
 - Only matches consistent with the estimated geometry are retained as inliers. These are the most reliable correspondences.
 
-### 9. Visualize Matches
+### Visualize Matches
 - Matches are visualized using Kornia-Moons’ `draw_LAF_matches`. Inliers are shown in green, tentative matches in yellow. Visualization helps interpret the quality and distribution of matches.
 
-### 10. Results & Analysis
+### Results & Analysis
 - The pipeline produces robust matches even under challenging conditions (scale, rotation, lighting). Results can be analyzed for accuracy, coverage, and reliability.
 
 ## Workflow Diagram
@@ -155,4 +155,5 @@ Image A   Image B
 ---
 
 **Made for the Kaggle Image Matching Challenge 2024**
+
 
